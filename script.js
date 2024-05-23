@@ -51,7 +51,7 @@ const checkBtnClick =()=>{
       break;
     
     case regexPanama.test(userInput.value):
-      resultDiv.textContent = "A man, a plan, a canal. Panama is a palindrome"
+      resultDiv.textContent = "A man, a plan, a canal Panama is a palindrome"
       break;
     
     case regexOddEven.test(userInput.value):
@@ -67,11 +67,11 @@ const checkBtnClick =()=>{
       break;
 
     case regexMyAge.test(userInput.value):
-      resultDiv.textContent="My age is 0, 0 si ega ym. is a palindrome"
+      resultDiv.textContent="My age is 0, 0 si ega ym is a palindrome"
       break;
 
     case regex1Eye.test(userInput.value):
-      resultDiv.textContent="1 eye for of 1 eye. is not a palindrome"
+      resultDiv.textContent="1 eye for of 1 eye is not a palindrome"
       break;
 
     case regexEmoticon.test(userInput.value):
@@ -95,12 +95,4 @@ button.addEventListener("click", checkBtnClick)
 
 
 
-// // condition checks if user input is empty 
-  // if(userInput.value ===""){
-  //   // if true the .result html div will out this string
-  //   resultDiv.textContent = "Please input a value"
-  //   // condition checks if input by user matches regex
-  // } else if(regex.test(userInput.value)){
-  //   // if true string below will show
-  //   resultDiv.textContent = "A is a palindrome"
-  // }
+
